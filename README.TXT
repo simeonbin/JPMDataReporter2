@@ -9,7 +9,7 @@ also adds each of the JAR files to the Class-Path element in the application
 JAR files manifest file (MANIFEST.MF).
 
 To run the project from the command line, go to the 
-\JpmDataReporter\out\artifacts\JpmDataReporter_jar folder and type the following:
+\JpmDataReporter2\out\artifacts\JpmDataReporter_jar folder and type the following:
 
 java -jar "JPMDataReporter.jar" 
 
