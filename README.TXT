@@ -1,23 +1,15 @@
-========================
-BUILD OUTPUT DESCRIPTION
-========================
 
-When you build an Java application project that has a main class, the IDE
-automatically copies all of the JAR
-files on the projects classpath to your projects dist/lib folder. The IDE
-also adds each of the JAR files to the Class-Path element in the application
-JAR files manifest file (MANIFEST.MF).
+This project was created on Jetbrains IntelliJ IDE tool.
+It's best if it's opened, read and run with the same.
 
 To run the project from the command line, go to the 
 \JpmDataReporter2\out\artifacts\JpmDataReporter_jar folder and type the following:
-
 java -jar "JPMDataReporter.jar" 
+or double click on the .jar file from a file explorer window tool.
+The CSV input file jpmdata_input.txt has to be at the project root or in same folder if run from .jar.
 
-To distribute this project, zip up the dist folder (including the lib folder)
-and distribute the ZIP file.
-
-
-I created a rudimentary User Interface. Two Buttons, 6 TextAreas and a couple other minor Java Swing widgets.
+I created a rudimentary java Swing-based GUI for the purposes of this project.
+Two Buttons, 6 TextAreas and a couple other minor Java Swing widgets.
 CSV type File jpmdata_input.txt contains the Financial Data like the one that follows.
 
 foo, B, 0.50, SGP, 01 Mar 2018, 02 Mar 2018, 200, 100.25
@@ -92,18 +84,3 @@ so that one can total Incoming and Outgoing USD$ Amounts per Day.
 String being the Entity, Double being the Total Amount value for that Entity.
 This accomplishes the Ranking of Entities based on Total Incoming and Outgoing Amounts.
 
-
-Notes:
-
-* If two JAR files on the project classpath have the same name, only the first
-JAR file is copied to the lib folder.
-* Only JAR files are copied to the lib folder.
-If the classpath contains other types of files or folders, these files (folders)
-are not copied.
-* If a library on the projects classpath also has a Class-Path element
-specified in the manifest,the content of the Class-Path element has to be on
-the projects runtime path.
-* To set a main class in a standard Java project, right-click the project node
-in the Projects window and choose Properties. Then click Run and enter the
-class name in the Main Class field. Alternatively, you can manually type the
-class name in the manifest Main-Class element.
