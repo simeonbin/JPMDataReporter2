@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JpmDataReporter:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JpmDataReporter_jar</output-path>
+    <root id="archive" name="JpmDataReporter.jar">
+      <element id="module-output" name="JpmDataReporter" />
+    </root>
+  </artifact>
+</component>
